@@ -48,3 +48,52 @@ ul.profile__contact {
 }
 
 
+
+/* --------------------------------------------------------------------------- */
+/* -------------------MEDIA QUERYS - AJUSTE A PANTALLAS ---------------------- */
+/* --------------------------------------------------------------------------- */
+@media screen and (max-width: 1100px) {
+    img.profile__image {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img.profile__image {
+        width: 150px;
+    }
+
+    .profile__bio {
+        font-size: 20px;
+    }
+
+    .profile__sub {
+        font-size: 14px;
+    }
+
+    .profile__contact__item {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    img.profile__image {
+        width: 90px;
+    }
+
+    .profile__bio {
+        font-size: 16px;
+    }
+
+    .profile__sub {
+        font-size: 9px;
+    }
+
+    .profile__contact__item {
+        font-size: 10px;
+    }
+
+    section.profile {
+        padding: 30px;
+    }
+}
