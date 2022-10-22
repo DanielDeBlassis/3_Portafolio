@@ -98,3 +98,29 @@ ul.profile__contact {
         padding: 30px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    img.profile__image {
+        width: 50px;
+    }
+
+    .profile__div {
+        gap: 20px;
+    }
+
+    .profile__bio {
+        font-size: 12px;
+    }
+
+    .profile__sub {
+        font-size: 8px;
+    }
+
+    .profile__contact__item {
+        font-size: 8px;
+    }
+
+    section.profile {
+        padding: 15px;
+    }
+}
