@@ -1,0 +1,20 @@
+section#sobre-mi {
+    padding: 50px;
+}
+
+.acercade__titulo{
+    color: white;
+    font-size: 35px;
+    border-bottom: solid .5px white;
+    border-bottom-left-radius: 10%;
+}
+
+.acercade__parrafo{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
