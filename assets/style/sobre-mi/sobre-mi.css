@@ -18,3 +18,58 @@ section#sobre-mi {
 
 
 
+/* --------------------------------------------------------------------------- */
+/* -------------------MEDIA QUERYS - AJUSTE A PANTALLAS ---------------------- */
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 978px) {
+    section#sobre-mi {
+        padding: 50px;
+    }
+    
+    .acercade__titulo{
+        font-size: 25px;
+    }
+    
+    .acercade__parrafo{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    section#sobre-mi {
+        padding: 30px;
+    }
+    
+    .acercade__titulo{
+        font-size: 16px;
+    }
+    
+    .acercade__parrafo{
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    section#sobre-mi {
+        padding: 15px;
+    }
+    
+    .acercade__parrafo{
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (max-width: 350px) {
+    section#sobre-mi {
+        padding: 15px;
+    }
+    
+    .acercade__parrafo{
+        font-size: 9px;
+    }
+    
+}
