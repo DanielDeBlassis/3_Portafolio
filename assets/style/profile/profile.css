@@ -24,6 +24,7 @@ img.profile__image {
 .profile__sub {
     color: white;
     text-align: justify;
+    font-size: 20px;
 }
 
 
