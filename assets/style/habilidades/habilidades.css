@@ -1,0 +1,30 @@
+section.skills {
+    padding: 50px;
+}
+
+.skills__title {
+    color: white;
+    font-size: 35px;
+    border-bottom: solid .5px white;
+    border-bottom-left-radius: 10%;
+}
+
+p.skill__titulo {
+    color: white;
+    font-size: 10px;
+}
+
+p.percent {
+    color: white;
+    font-size: 10px;
+}
+
+.skills__box {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
