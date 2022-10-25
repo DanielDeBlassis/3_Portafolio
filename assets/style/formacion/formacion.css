@@ -1,0 +1,47 @@
+section.education {
+    padding: 50px;
+}
+
+.education__title {
+    color: white;
+    font-size: 35px;
+    border-bottom: solid .5px white;
+    border-bottom-left-radius: 10%;
+}
+
+.education__courses {
+    display: flex;
+    flex-direction: column;
+}
+
+.education__courses__box {
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+}
+
+.education__courses__list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px #ffffff0f;
+}
+
+.education__img {
+    width: 100px;
+}
+
+.education__courses__item__title {
+    color: white;
+    font-size: 30px;
+}
+
+.education__courses__item__subtitle {
+    color: white;
+    font-size: 20px;
+}
+
