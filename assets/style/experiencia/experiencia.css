@@ -70,3 +70,126 @@ section.experience {
 
 
 
+/* --------------------------------------------------------------------------- */
+/* -------------------MEDIA QUERYS - AJUSTE A PANTALLAS ---------------------- */
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 978px) {
+
+    .experience__section__title {
+        font-size: 25px;
+    }
+
+    .experiencies__container {
+        gap: 50px;
+        padding: 50px;
+    }
+    
+    .experiencie__box {
+        width: 375px;
+    }
+
+    .experience__title {
+        font-size: 30px;
+    }
+    
+    .experience__text {
+        font-size: 20px;
+    }
+    
+    .experience__description {
+        gap: 30px;
+    }
+
+    .experience__link {
+        width: 130px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.experience {
+        padding: 30px;
+    }
+
+    .experience__section__title {
+        font-size: 16px;
+    }
+
+    .experiencies__container {
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .experiencie__box {
+        width: 350px;
+    }
+
+    .experience__muestra {
+        width: 350px;
+    }
+
+    .experience__title {
+        font-size: 20px;
+    }
+    
+    .experience__text {
+        font-size: 16px;
+    }
+    
+    .experience__description {
+        gap: 20px;
+    }
+
+    .experience__link {
+        width: 120px;
+        height: 20px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    section.experience {
+        padding: 15px;
+    }
+
+    .experiencies__container {
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .experiencie__box {
+        width: 250px;
+    }
+
+    .experience__muestra {
+        width: 250px;
+    }
+
+    .experience__title {
+        font-size: 16px;
+    }
+    
+    .experience__text {
+        font-size: 10px;
+    }
+    
+    .experience__description {
+        gap: 15px;
+    }
+
+    .experience__link {
+        width: 100px;
+        height: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    section.experience {
+        padding: 15px;
+    }
+}
+
+
