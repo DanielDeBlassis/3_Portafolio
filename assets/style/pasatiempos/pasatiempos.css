@@ -50,3 +50,85 @@ section.hobbies {
 }
 
 
+
+/* --------------------------------------------------------------------------- */
+/* -------------------MEDIA QUERYS - AJUSTE A PANTALLAS ---------------------- */
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 978px) {
+    section.hobbies {
+        padding: 50px;
+    }
+
+    .hobbies__title {
+        font-size: 25px;
+    }
+
+    .hobbies__list__item {
+        width: 220px;
+        padding: 30px;
+    }
+
+    .hobbie__list__item__title {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.hobbies {
+        padding: 30px;
+    }
+
+    .hobbies__title {
+        font-size: 16px;
+    }
+
+    .hobbies__list__item {
+        width: 200px;
+        padding: 20px;
+    }
+
+    .hobbie__list__item__title {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    section.hobbies {
+        padding: 15px;
+    }
+
+    .hobbies__list__item {
+        width: 150px;
+        padding: 10px;
+    }
+
+    .hobbie__list__item__title {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .icono {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    section.hobbies {
+        padding: 15px;
+    }
+
+    .hobbie__list__item__title {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .icono {
+        font-size: 20px;
+    }
+
+}
