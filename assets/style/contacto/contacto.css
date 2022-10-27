@@ -8,3 +8,9 @@ section.formulario {
     border-bottom: solid .5px white;
     border-bottom-left-radius: 10%;
 }
+
+.formulario__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
