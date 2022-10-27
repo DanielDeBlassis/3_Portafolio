@@ -18,3 +18,8 @@ section.formulario {
 .formulario--container-img {
     align-self: center;
 }
+
+.formulario__img {
+    width: 250px;
+}
+
