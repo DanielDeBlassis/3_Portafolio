@@ -23,3 +23,12 @@ section.formulario {
     width: 250px;
 }
 
+.formulario__subtext {
+    color: white;
+    font-size: 20px;
+}
+
+.formulario__subtext.head {
+    font-size: 20px;
+    font-weight: 600;
+}
