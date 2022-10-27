@@ -75,3 +75,82 @@ button.formulario__boton {
     border: solid 3px red;
 }
 
+
+
+/* --------------------------------------------------------------------------- */
+/* -------------------MEDIA QUERYS - AJUSTE A PANTALLAS ---------------------- */
+/* --------------------------------------------------------------------------- */
+
+@media screen and (max-width: 978px) {
+
+    .formulario__title {
+        font-size: 25px;
+    }
+
+    .formulario__contacto {
+        gap: 50px;
+        padding: 50px;
+    }
+
+    .formulario__img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.formulario {
+        padding: 30px;
+    }
+
+    .formulario__title {
+        font-size: 16px;
+    }
+
+    .formulario__contacto {
+        gap: 30px;
+        padding: 30px;
+    }
+
+    .formulario__img {
+        width: 120px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    section.formulario {
+        padding: 15px;
+    }
+
+    .formulario__contacto {
+        gap: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario__title {
+        font-size: 16px;
+    }
+
+    .formulario__subtext {
+        color: white;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .formulario__img {
+        width: 80px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    section.formulario {
+        padding: 15px;
+    }
+}
+
+
+
+
