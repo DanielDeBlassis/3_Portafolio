@@ -70,3 +70,8 @@ button.formulario__boton {
     color: red;
     font-size: 15px;
 }
+
+.error {
+    border: solid 3px red;
+}
+
