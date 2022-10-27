@@ -52,3 +52,20 @@ const mensajesDeError = {
         patternMismatch: "El mensaje debe contener entre 1 a 300 caracteres.",
     }
 };
+
+function mostrarMensajeDeError(tipoDeInput, input) {
+    let mensaje = "";
+    tipoDeErrores.forEach((error) => {
+        if (input.validity[error]) {
+            mensaje = mensajesDeError[tipoDeInput][error];
+        }
+    });
+    return mensaje;
+}
+
+
+
+
+
+
+
