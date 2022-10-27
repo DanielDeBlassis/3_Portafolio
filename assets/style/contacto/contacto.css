@@ -32,3 +32,32 @@ section.formulario {
     font-size: 20px;
     font-weight: 600;
 }
+
+.formulario__contacto {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
+}
+
+form.formulario__form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.formulario__label {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+button.formulario__boton {
+    height: 50px;
+    font-size: 18px;
+    align-self: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
