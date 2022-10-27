@@ -16,3 +16,13 @@ export function validar(input) {
         $msjError.classList.remove("no-mostrar");
     }
 }
+
+export function habilitarBoton(inputs){
+    inputs.forEach((input) => {
+        if(input.validity.valid){ 
+        $boton.removeAttribute("disabled");
+        }else{
+        $boton.setAttribute("disabled", "disabled");
+        }
+    });
+}
