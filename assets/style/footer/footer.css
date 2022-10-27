@@ -3,3 +3,8 @@ section.footer {
     width: 100vw;
     background: linear-gradient(to bottom, #1c7ce040, #150051);
 }
+
+.footer__details {
+    font-size: 12px;
+    color: white;
+}
