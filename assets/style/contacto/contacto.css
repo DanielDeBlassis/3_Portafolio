@@ -61,3 +61,7 @@ button.formulario__boton {
     margin-top: 40px;
 }
 
+.no-mostrar{
+    display: none;
+}
+
