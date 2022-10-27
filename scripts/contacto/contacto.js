@@ -33,3 +33,8 @@ $inputs.forEach((input) => {
     });
 });
 
+
+function resetearFormulario(inputs) {
+  inputs.forEach((input) => {
+    input.value = ""
+  });
