@@ -26,3 +26,11 @@ export function habilitarBoton(inputs){
         }
     });
 }
+
+const tipoDeErrores = [
+    "valueMissing",
+    "typeMismatch",
+    "patternMismatch",
+    "customError",
+];
+
