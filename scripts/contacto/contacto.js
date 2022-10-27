@@ -23,3 +23,13 @@ document.getElementById('form')
     //   console.log(JSON.stringify(err));
     });
 });
+
+const $inputs = document.querySelectorAll(".form-control");
+
+$inputs.forEach((input) => {
+    input.addEventListener("blur", (input) => {
+        validar(input.target);
+        habilitarBoton($inputs);
+    });
+});
+
