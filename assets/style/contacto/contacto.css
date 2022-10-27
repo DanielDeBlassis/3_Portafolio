@@ -2,3 +2,9 @@ section.formulario {
     padding: 50px;
 }
 
+.formulario__title {
+    color: white;
+    font-size: 35px;
+    border-bottom: solid .5px white;
+    border-bottom-left-radius: 10%;
+}
